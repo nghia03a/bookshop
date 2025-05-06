@@ -85,7 +85,7 @@ nav ul li a {
 }
 
 header {
-  background-image: url("/media/imgbgr4k.jpg");
+  background-image: url("imgbgr4k.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
