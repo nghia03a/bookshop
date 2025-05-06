@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #e6f7f7;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-container {
+  display: flex;
+  max-width: 1000px;
+  width: 95%;
+  background-color: #e6f7f7;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+form {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form input,
+form button {
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+form button {
+  background-color: #dff6f0;
+  color: #004d40;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background-color: #b2ebe0;
+}
+
+.image-section {
+  flex: 1;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
